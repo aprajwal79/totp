@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Dictionary to store the secrets associated with emails (for demo purposes)
 secrets = {
     "yourfriend@example.com": "U2EDRIKL2XL5M2IG",  # Example base32 secret
-    "rushabhlute@outlook.com": "U2EDRIKL2XL5M2IG"
+    "rushabhlute@outlook.com": "7C6R4FZYU33JI6MX"
 }
 
 def generate_totp(email):
